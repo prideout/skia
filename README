@@ -1,0 +1,14 @@
+To build with cmake:
+
+    cmake -H. -B_build -GNinja
+    cmake --build _build
+
+This is a trimmed-down export of servo/skia:
+
+    https://github.com/servo/skia
+    c29de41d2a4566847b319bae70168e1bf3bd7648 (1 July 2018)
+
+Which in turn is based on:
+
+    https://skia.googlesource.com/skia.git
+    0349864b75317ba66232df827e84ef7c25e34cfe (16 June 2014)
